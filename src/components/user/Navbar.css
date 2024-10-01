@@ -1,0 +1,95 @@
+/* src/components/NavBar.css */
+.nav-link cntry{
+  float: left;
+    background-color:#2d88ef;
+   color:black;
+   text-decoration:none;
+    width:200px;
+    list-style: none;
+}
+
+
+.navbar {
+    background-color: #5fa6f6;
+    padding: 1rem;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 1rem;
+    
+  }
+  
+  .navbar-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+  }
+  
+  .navbar-links a:hover {
+    text-decoration:underline;
+    
+  }
+  #buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color:#2d88ef;
+    margin-right: 30px;
+    width: 100px;
+    line-height: 30px;
+  }
+  
+  
+  /* For small screens */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #abbcd2;
+    display: block;
+    margin: 5px 0;
+  }
+
+  /* Hide the links initially in mobile view */
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background-color: #61a1f5;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  /* Show the links when mobile menu is active */
+  .mobile-menu {
+    display: flex;
+   
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+   .buttons{
+    
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    margin-left: 300px;
+   }
+  
+}
+
